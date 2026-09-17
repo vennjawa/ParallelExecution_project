@@ -19,7 +19,7 @@ bat 'mvn test'
 
 post {
 always {
-junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
+junit allowEmptyResults: false, testResults: '**/target/surefire-reports/*.xml'
 }
 }
 }
