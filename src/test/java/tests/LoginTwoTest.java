@@ -2,7 +2,7 @@ package tests;
 import base.BaseTest;
 import pages.LoginPage;
 import org.junit.jupiter.api.*;
-public class LoginTestTwo extends BaseTest {
+public class LoginTwoTest extends BaseTest {
     @BeforeEach
     void start() {
         setup();
