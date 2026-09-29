@@ -21,7 +21,7 @@ public class LoginTwoTest extends BaseTest {
     void loginTest2() {
         LoginPage login = new LoginPage(page);
         login.openWebsite();
-        login.login("student", "Password123");
+        login.login("student", "Password789");
 
         System.out.println("Test2 : " + login.getSuccessMessage());
         page.screenshot(
