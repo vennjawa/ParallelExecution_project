@@ -23,7 +23,7 @@ public class LoginTest extends BaseTest {
     void loginTest1() {
         LoginPage login = new LoginPage(page);
         login.openWebsite();
-        login.login("student", "Password123");
+        login.login("student", "Password456");
 
         System.out.println("Test1 : " + login.getSuccessMessage());
         page.screenshot(
